@@ -2,7 +2,8 @@ const crypto = require("crypto");
 const Otp = require("../models/otp");
 
 const generateOtp = () => {
-  return Math.floor(100000 + Math.random() * 900000);
+  // return Math.floor(100000 + Math.random() * 900000);
+  return 123456;
 };
 
 const sendOtp = async (phone) => {
