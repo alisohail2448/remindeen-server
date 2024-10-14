@@ -173,7 +173,6 @@ const addUser = async (req, res) => {
       data: {
         name,
         phone,
-        password,
       },
     });
   } catch (error) {
